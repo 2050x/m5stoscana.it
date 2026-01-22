@@ -4,7 +4,35 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Sito in aggiornamento del Movimento 5 Stelle Toscana. Iscriviti alla newsletter per rimanere aggiornato." />
-  <title>M5S Toscana — Sito in aggiornamento</title>
+  <meta name="keywords" content="Movimento 5 Stelle Toscana, M5S Toscana, Movimento 5 Stelle Regione Toscana, politica Toscana, newsletter M5S Toscana" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Movimento 5 Stelle Toscana" />
+  <link rel="canonical" href="https://m5stoscana.it/" />
+  <link rel="icon" href="logo-m5stoscana.png" type="image/png" />
+  <link rel="shortcut icon" href="logo-m5stoscana.png" type="image/png" />
+  <link rel="apple-touch-icon" href="logo-m5stoscana.png" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="M5S Toscana" />
+  <meta property="og:title" content="M5S Toscana - Movimento 5 Stelle" />
+  <meta property="og:description" content="Sito in aggiornamento del Movimento 5 Stelle Toscana. Iscriviti alla newsletter per rimanere aggiornato." />
+  <meta property="og:url" content="https://m5stoscana.it/" />
+  <meta property="og:image" content="https://m5stoscana.it/logo-m5stoscana.png" />
+  <meta property="og:image:alt" content="Logo Movimento 5 Stelle Toscana" />
+  <meta property="og:locale" content="it_IT" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="M5S Toscana - Movimento 5 Stelle" />
+  <meta name="twitter:description" content="Sito in aggiornamento del Movimento 5 Stelle Toscana. Iscriviti alla newsletter per rimanere aggiornato." />
+  <meta name="twitter:image" content="https://m5stoscana.it/logo-m5stoscana.png" />
+  <meta name="twitter:image:alt" content="Logo Movimento 5 Stelle Toscana" />
+
+  <!-- Geo -->
+  <meta name="geo.region" content="IT-52" />
+  <meta name="geo.placename" content="Toscana" />
+  <title>M5S Toscana - Movimento 5 Stelle</title>
 
   <style>
     :root{
@@ -224,6 +252,31 @@
 
     .social a:active{ transform: translateY(1px); }
 
+    .social .left{
+      display:flex;
+      align-items:center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .social .icon{
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      display:grid;
+      place-items:center;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.04);
+      flex: 0 0 auto;
+    }
+
+    .social .icon svg{
+      width: 18px;
+      height: 18px;
+      display:block;
+      color: var(--accent2);
+    }
+
     .social .label{
       display:flex;
       flex-direction:column;
@@ -312,26 +365,24 @@
           </div>
         </div>
 
-        <a class="btn btnGhost" href="https://m5stoscana.substack.com" target="_blank" rel="noopener noreferrer">
-          Newsletter
+        <a class="btn btnGhost" href="https://www.movimento5stelletoscana.it/" target="_blank" rel="noopener noreferrer">
+          Vai all'attuale ufficiale
           <span aria-hidden="true">↗</span>
         </a>
       </header>
 
       <main>
         <section class="hero">
-          <h2>Stiamo preparando il nuovo sito del Movimento 5 Stelle Toscana</h2>
-          <p>
-            Nel frattempo potete iscrivervi alla newsletter o canali social per rimanere aggiornati sulle nostre attività e iniziative.
+          <h2>Movimento 5 Stelle Toscana</h2>
+          <p>Stiamo preparando il nuovo sito. Nel frattempo potete <strong>iscrivervi alla newsletter</strong> o canali social per rimanere aggiornati sulle nostre attività e iniziative.
           </p>
         </section>
 
         <section class="grid" aria-label="Contenuti principali">
           <div class="card">
-            <h3>Iscriviti per restare aggiornato</h3>
             <div class="ctaRow">
               <a class="btn btnPrimary" href="https://m5stoscana.substack.com" target="_blank" rel="noopener noreferrer">
-                Vai alla newsletter
+                Vai alla newsletter M5S Toscana
                 <span aria-hidden="true">→</span>
               </a>
             </div>
@@ -345,33 +396,65 @@
 
             <nav class="social" aria-label="Link social">
               <a href="https://www.facebook.com/Movimento5StelleToscana/" target="_blank" rel="noopener noreferrer">
-                <div class="label">
-                  <strong>Facebook</strong>
-                  <span>facebook.com/Movimento5StelleToscana</span>
+                <div class="left">
+                  <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                    </svg>
+                  </span>
+                  <div class="label">
+                    <strong>Facebook</strong>
+                    <span>facebook.com/Movimento5StelleToscana</span>
+                  </div>
                 </div>
                 <span class="arrow" aria-hidden="true">↗</span>
               </a>
 
               <a href="https://www.instagram.com/toscana5stelle/" target="_blank" rel="noopener noreferrer">
-                <div class="label">
-                  <strong>Instagram</strong>
-                  <span>instagram.com/toscana5stelle</span>
+                <div class="left">
+                  <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <rect x="3" y="3" width="18" height="18" rx="5" ry="5" />
+                      <circle cx="12" cy="12" r="4" />
+                      <circle cx="17" cy="7" r="1" />
+                    </svg>
+                  </span>
+                  <div class="label">
+                    <strong>Instagram</strong>
+                    <span>instagram.com/toscana5stelle</span>
+                  </div>
                 </div>
                 <span class="arrow" aria-hidden="true">↗</span>
               </a>
 
               <a href="https://t.me/m5s_toscana" target="_blank" rel="noopener noreferrer">
-                <div class="label">
-                  <strong>Canale Telegram</strong>
-                  <span>t.me/m5s_toscana</span>
+                <div class="left">
+                  <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M22 2 2.6 10.1c-.8.3-.8 1.4 0 1.7l4.7 1.8 1.8 4.7c.3.8 1.4.8 1.7 0L22 2z" />
+                      <path d="M7.3 13.5 18.8 5.2 10.5 16.7" />
+                    </svg>
+                  </span>
+                  <div class="label">
+                    <strong>Canale Telegram</strong>
+                    <span>t.me/m5s_toscana</span>
+                  </div>
                 </div>
                 <span class="arrow" aria-hidden="true">↗</span>
               </a>
 
               <a href="https://whatsapp.com/channel/0029VbCa8rS1iUxWBNfPmc1X" target="_blank" rel="noopener noreferrer">
-                <div class="label">
-                  <strong>Canale WhatsApp</strong>
-                  <span>whatsapp.com/channel/0029VbCa8rS1iUxWBNfPmc1X</span>
+                <div class="left">
+                  <span class="icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.7-1.5A10 10 0 1 0 12 2z" />
+                      <path d="M8.5 8.8c.2-.6.8-.8 1.3-.5l1.1.6c.5.3.7.9.4 1.4l-.4.7c.7 1.3 1.8 2.3 3.1 3l.7-.4c.5-.3 1.1-.1 1.4.4l.6 1.1c.3.5.1 1.1-.5 1.3-1 .4-2.1.4-3.1-.1-2.1-1-3.8-2.7-4.8-4.8-.5-1-.5-2.1-.1-3.1z" />
+                    </svg>
+                  </span>
+                  <div class="label">
+                    <strong>Canale WhatsApp</strong>
+                    <span>whatsapp.com/channel/0029VbCa8rS1iUxWBNfPmc1X</span>
+                  </div>
                 </div>
                 <span class="arrow" aria-hidden="true">↗</span>
               </a>
@@ -381,7 +464,7 @@
       </main>
 
       <footer>
-        <div>© <span id="y"></span> M5S Toscana</div>
+        <div>© 2026 M5S Toscana</div>
         <div class="smallLinks">
           <a href="https://m5stoscana.substack.com" target="_blank" rel="noopener noreferrer">Newsletter</a>
           <a href="https://www.facebook.com/Movimento5StelleToscana/" target="_blank" rel="noopener noreferrer">Facebook</a>
@@ -392,10 +475,5 @@
       </footer>
     </div>
   </div>
-
-  <script>
-    // anno corrente
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>

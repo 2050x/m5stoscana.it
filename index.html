@@ -187,6 +187,12 @@
       align-items: center;
     }
 
+    .ctaCol{
+      display: grid;
+      gap: 10px;
+      justify-items: start;
+    }
+
     .btn{
       appearance: none;
       border: 0;
@@ -380,12 +386,19 @@
 
         <section class="grid" aria-label="Contenuti principali">
           <div class="card">
-            <div class="ctaRow">
+            <div class="ctaCol" aria-label="Azioni principali">
               <a class="btn btnPrimary" href="https://m5stoscana.substack.com" target="_blank" rel="noopener noreferrer">
                 Vai alla newsletter M5S Toscana
                 <span aria-hidden="true">→</span>
               </a>
+
+              <a class="btn btnGhost" href="https://forms.gle/bn41t6baeHvTXPAe6" target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">✍️</span>
+                <span>Scrivici</span>
+                <span aria-hidden="true">→</span>
+              </a>
             </div>
+
           </div>
 
           <div class="card">
